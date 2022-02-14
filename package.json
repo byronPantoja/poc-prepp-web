@@ -1,0 +1,28 @@
+{
+  "name": "poc-prepp-web",
+  "version": "1.0.0",
+  "description": "Proof of concept NextJS TailwindCSS site",
+  "main": "index.js",
+  "repository": "git@bitbucket.org:developer833/poc-prepp-web.git",
+  "author": "team833",
+  "license": "MIT",
+  "private": false,
+
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+
+  "dependencies": {
+    "next": "^12.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.22"
+  }
+}
